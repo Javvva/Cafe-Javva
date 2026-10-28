@@ -2,11 +2,15 @@
 Compilation of Cyber Tools &amp; Resources for CTF's
 
 ## Learning/Practice Platforms
+I feel like general university courses are one of the best way to learn these general topics but can get hard to put these concepts into practice so having these resources to flex those cyber skills are very helpful.
 - [HackTricks](https://hacktricks.wiki/en/index.html): Huge **wiki** for a lot of specific **tool research** and **methods**
 - [TryHackMe](https://tryhackme.com): My **go-to website** for learning general skills and fun boxes
 - [HackTheBox](https://academy.hackthebox.com): Has **general** courses and information about cybersecurity but is known for their **remote CTF boxes**
 - [CyLab Security Academy](https://learn.cylabacademy.org): **General** course style learning for CTF skills and categories
 - [Port Swigger](https://portswigger.net/web-security): Great website for learning **web security**
+- [CryptoHack](https://cryptohack.org/): One of the best resource for study/learn **cryptography** different ciphers and learn to write python code.
+- [OverTheWire-Wargames](https://overthewire.org/wargames/): Community made challenges to test security concepts through rooms.\
+`Personally had fun going through the web security.`
 
 ## Open Source Intelligence (OSINT)
 A lot of OSINT is just looking information up on the public-facing internet, however I have found some useful tools for challenges I see often (NCL, CyberSeed, Cyebrfusion, etc.).
@@ -17,6 +21,12 @@ A lot of OSINT is just looking information up on the public-facing internet, how
 - [ZBar](https://zbar.sourceforge.net/): There was one challenge where I had to manipulate or scan QR/Barcodes so having this in your Kali Linux VM would be convienent
 
 ## Cryptography
+- [CyberChef](https://gchq.github.io/CyberChef/): The "Cyber Swiss Army Knife" of encoding and probably one of my most used tool for CTF's.\
+`I prefer to use the website but if your have trouble loading it, just download it.`
+- [dCode](https://www.dcode.fr/en): ###
+- [CryptoCrack](https://github.com/GHUploader/CryptoCrack): Use for brute forcing classical/historical ciphers.
+- [####](###): ###
+- [####](###): ###
 
 ## Password Cracking
 
