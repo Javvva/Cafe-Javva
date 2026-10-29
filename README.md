@@ -35,12 +35,19 @@ Lots of cipher, encoding, and hashing stuff so make sure you are familiar with t
 
 ## Network Traffic Analysis
 
+
 ## Log Analysis
 
+
 ## Forensics 
+###
+- [Volatility Command List](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference):
+- 
 
 ## Scanning &amp; Reconnaissance
 
+
 ## Web Application Exploitation
+
 
 ## Enumeration &amp; Exploitation
