@@ -1,0 +1,8 @@
+{
+  "title": "Scanning & Reconnaissance",
+  "icon": "Radar",
+  "pages": [
+    "index",
+    "dmz"
+  ]
+}
