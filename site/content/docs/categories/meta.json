@@ -1,0 +1,14 @@
+{
+  "title": "Categories",
+  "pages": [
+    "osint",
+    "cryptography",
+    "password-cracking",
+    "network-traffic-analysis",
+    "log-analysis",
+    "forensics",
+    "scanning-reconnaissance",
+    "web-application-exploitation",
+    "enumeration-exploitation"
+  ]
+}

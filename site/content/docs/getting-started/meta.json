@@ -1,0 +1,13 @@
+{
+  "title": "Getting started",
+  "icon": "BookOpen",
+  "pages": [
+    "index",
+    "how-to-use-these-notes",
+    "challenge-overview",
+    "team-habits",
+    "gaps",
+    "kali-wsl",
+    "add-a-writeup"
+  ]
+}

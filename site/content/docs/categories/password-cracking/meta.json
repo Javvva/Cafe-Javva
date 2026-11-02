@@ -1,0 +1,9 @@
+{
+  "title": "Password Cracking",
+  "icon": "Lock",
+  "pages": [
+    "index",
+    "birdwatchers",
+    "encrypted-files"
+  ]
+}

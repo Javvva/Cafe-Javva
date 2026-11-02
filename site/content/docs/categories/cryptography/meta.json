@@ -1,0 +1,10 @@
+{
+  "title": "Cryptography",
+  "icon": "KeyRound",
+  "pages": [
+    "index",
+    "bad-weather",
+    "encoded-code-words",
+    "intercept"
+  ]
+}
