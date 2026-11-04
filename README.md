@@ -11,6 +11,7 @@ I feel like general university courses are one of the best way to learn these ge
 - [CryptoHack](https://cryptohack.org/): One of the best resource for study/learn **cryptography** different ciphers and learn to write python code.
 - [OverTheWire-Wargames](https://overthewire.org/wargames/): Community made challenges to test security concepts through rooms.\
 `Personally had fun going through the web security.`
+- [NCL Resources](https://nationalcyberleague.org/competition/resources): Tons of good resources to find tools and stuff by Cyber Skyline.  
 
 ## Open Source Intelligence (OSINT)
 A lot of OSINT is just looking information up on the public-facing internet, however I have found some useful tools for challenges I see often (NCL, CyberSeed, Cyebrfusion, etc.).
@@ -56,10 +57,12 @@ This category is knowing how to read and find information. Make sure to know how
 - [Wc](https://man7.org/linux/man-pages/man1/wc.1.html): Used to count lines, words, characters, and bytes in a file.
 
 ## Forensics 
-###
+Forensics is a very broad category so make sure you know what type of challenge you're dealing with to use the correct tools.
 - [Aperi'Solve](https://www.aperisolve.com/): My go-to online image steganography analyzer that has many forensics tools embeded like binwalk, exiftool, etc.
 - [Volatility Command List](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference): Extracting digital artifacts from volatile memory, not too familiar with this.
 - [Binwalk](https://github.com/ReFirmLabs/binwalk): Tool searching a given binary image for embedded files and executable code.
+- [Autopsy](https://www.autopsy.com/): Forensic analysis on disk images/file systems. Make sure you watch a tutorial because it is very hard to get started.
+- [HxD](https://download.cnet.com/HxD-Hex-Editor/3000-2352_4-10891068.html): Inspect and manipulate a file's raw bytes directly, you can also use an online tool for this if your lazy.
 
 ## Scanning &amp; Reconnaissance
 This category is about scanning and exploring the environment so get to know many of the commands within the environment.
@@ -67,6 +70,10 @@ This category is about scanning and exploring the environment so get to know man
 - [Nmap](https://nmap.org/): Network discovery which is used for seeing ports, live hosts, and map exposed services.
 
 ## Web Application Exploitation
-
+You are given a website and often times you want to read the challenge header to have an idea where to look. Look in Portswigger Web Academy for learning.
+- [Firefox](https://firefox-source-docs.mozilla.org/devtools-user/): I always use Firefox to do this category because it is a lot easier to see the DevTools info.
+- [Burp Suite](https://www.google.com/url?sa=D&q=https://portswigger.net/burp/releases/professional-community-2023-6-2%3Frequestededition%3Dcommunity%26requestedplatform%3D&ust=1793911200000000&usg=AOvVaw1KPwElImGQBi8WSQ1-6QDh&hl=en): Used for intercept, inspect, modify, and replay HTTP/HTTPS traffic for the webpage.
+- Look into **robots.txt**
+- Look into dirbuster or fuzz for looking for more web discovery.
 
 ## Enumeration &amp; Exploitation
