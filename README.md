@@ -5,7 +5,7 @@ Compilation of Cyber Tools &amp; Resources for CTF's
 I feel like general university courses are one of the best way to learn these general topics but can get hard to put these concepts into practice so having these resources to flex those cyber skills are very helpful.
 - [HackTricks:](https://hacktricks.wiki/en/index.html) Huge **wiki** for a lot of specific **tool research** and **methods**
 - [TryHackMe:](https://tryhackme.com) My **go-to website** for learning general skills and fun boxes
-- [HackTheBox:](https://academy.hackthebox.com): Has **general** courses and information about cybersecurity but is known for their **remote CTF boxes**
+- [HackTheBox:](https://academy.hackthebox.com) Has **general** courses and information about cybersecurity but is known for their **remote CTF boxes**
 - [CyLab Security Academy:](https://learn.cylabacademy.org) **General** course style learning for CTF skills and categories
 - [Port Swigger:](https://portswigger.net/web-security) Great website for learning **web security**
 - [CryptoHack:](https://cryptohack.org/) One of the best resource for study/learn **cryptography** different ciphers and learn to write python code.
