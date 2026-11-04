@@ -34,7 +34,7 @@ Lots of cipher, encoding, and hashing stuff so make sure you are familiar with t
 ## Password Cracking
 Password cracking is a lot of the same things from cryptography but harder challenges is more researching and wordlist building.
 - [Cewl](https://www.kali.org/tools/cewl/): Wordlist builder but has no GUI.
-- [John the Ripper](https://www.kali.org/tools/john/) : Tool for cracking password hashes.
+- [John the Ripper](https://www.kali.org/tools/john/): Tool for cracking password hashes.
 - [Hashcat](https://www.kali.org/tools/hashcat/): Tool for cracking password hashes.
 - [Hydra](https://www.kali.org/tools/hydra/): Tool for cracking login passwords on networks.
 - [Fcrackzip](https://www.kali.org/tools/fcrackzip/): Crack passwords on zip folders.
