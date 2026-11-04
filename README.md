@@ -28,16 +28,31 @@ Lots of cipher, encoding, and hashing stuff so make sure you are familiar with t
 - [dCode](https://www.dcode.fr/en): **DCODE IS THE BEST!!!** Has so many ciphers and has an 'Cipher-Identifier' that helps figure out encoding/base formats.
 - [CryptoCrack](https://github.com/GHUploader/CryptoCrack): Use for brute forcing classical/historical ciphers.
 - [Hash-Identifier](https://hashes.com/en/tools/hash_identifier): Good for detecting known hashes.
-- [quipqiup](https://quipqiup.com/): "Fast and automated cryptogram solver" have **not tested in-depth, but will try in the future**. 
+- [quipqiup](https://quipqiup.com/): "Fast and automated cryptogram solver" have **not tested in-depth, but will try in the future**.
+- [Rumkin](https://rumkin.com/tools/): Web-based tools and ciphers that runs in the browser.
 
 ## Password Cracking
+Password cracking is a lot of the same things from cryptography but harder challenges is more researching and wordlist building.
+- [Cewl](https://www.kali.org/tools/cewl/): Wordlist builder but has no GUI.
+- [John the Ripper](https://www.kali.org/tools/john/) : Tool for cracking password hashes.
+- [Hashcat](https://www.kali.org/tools/hashcat/): Tool for cracking password hashes.
+- [Hydra](https://www.kali.org/tools/hydra/): Tool for cracking login passwords on networks.
+- [Fcrackzip](https://www.kali.org/tools/fcrackzip/): Crack passwords on zip folders.
 
 
 ## Network Traffic Analysis
-
+A lot of network traffic analysis is understanding Wireshark and aircrack-ng. Recommend watching tutorials or reading documentation.
+- [Wireshark](https://www.wireshark.org/): All-in-one tool for network analysis and debugging. Has GUI
+- [Aircrack-ng](https://www.aircrack-ng.org/): Wi-Fi and wireless hacking tool, not too familiar about this tool.
 
 ## Log Analysis
-
+This category is knowing how to read and find information. Make sure to know how to use the linux commands listed, or use an AI agent to pull the information.
+- [SQLite Viewer](https://inloop.github.io/sqlite-viewer/): Viewing sql based files.
+- [Cut](https://man7.org/linux/man-pages/man1/cut.1.html): Removing sections from each line of files. Good for cutting out undeeded info.
+- [Sort](https://man7.org/linux/man-pages/man1/sort.1.html): Sort lines of a text files.
+- [Uniq](https://man7.org/linux/man-pages/man1/uniq.1.html): Showing repeated or unique lines.
+- [Grep](https://man7.org/linux/man-pages/man1/grep.1.html): Grabbing/searching for whats in the quoted command.
+- [Wc](https://man7.org/linux/man-pages/man1/wc.1.html): Used to count lines, words, characters, and bytes in a file.
 
 ## Forensics 
 ###
