@@ -76,4 +76,7 @@ You are given a website and often times you want to read the challenge header to
 - Look into **robots.txt**
 - Look into dirbuster or fuzz for looking for more web discovery.
 
-## Enumeration &amp; Exploitation
+## Enumeration &amp; Exploitation &amp; Reverse Engineering
+- [Metasploit:](https://www.metasploit.com/) Automated exploitation C2 used to gain initial access, elevate privileges, and manage compromised targets.
+- [Uncompyle6:](https://pypi.org/project/uncompyle6/) A native Python cross-version decompiler and fragment decompiler.
+- [Ghidra:](https://github.com/NationalSecurityAgency/ghidra) Reverse engineering and decompilation tool to analyze compiled binaries and extract hidden flags, passwords, or logic flaws.
