@@ -20,6 +20,7 @@ A lot of OSINT is just looking information up on the public-facing internet, how
 - [who.is](https://who.is/): The website tool can look for more information (DNS records, contact info, etc.) through a **domain name or ip address**.
 - [Maltego](https://www.maltego.com/): Has different pricing informaiton but the free option has a graph that allows for seeing **identify data connections**.
 - [ZBar](https://zbar.sourceforge.net/): There was one challenge where I had to manipulate or scan **QR/Barcodes** so having this in your Kali Linux VM would be convienent.
+- [WayBackMachine](https://web.archive.org/): Internet archive for looking at websites which might be handy.
 
 ## Cryptography
 Lots of cipher, encoding, and hashing stuff so make sure you are familiar with the various formats/signs.  
@@ -56,11 +57,14 @@ This category is knowing how to read and find information. Make sure to know how
 
 ## Forensics 
 ###
-- [Volatility Command List](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference):
-- 
+- [Aperi'Solve](https://www.aperisolve.com/): My go-to online image steganography analyzer that has many forensics tools embeded like binwalk, exiftool, etc.
+- [Volatility Command List](https://github.com/volatilityfoundation/volatility/wiki/Command-Reference): Extracting digital artifacts from volatile memory, not too familiar with this.
+- [Binwalk](https://github.com/ReFirmLabs/binwalk): Tool searching a given binary image for embedded files and executable code.
 
 ## Scanning &amp; Reconnaissance
-
+This category is about scanning and exploring the environment so get to know many of the commands within the environment.
+- [Dirbuster](https://www.kali.org/tools/dirbuster/): Web server directory discovery, used on websites.
+- [Nmap](https://nmap.org/): Network discovery which is used for seeing ports, live hosts, and map exposed services.
 
 ## Web Application Exploitation
 
