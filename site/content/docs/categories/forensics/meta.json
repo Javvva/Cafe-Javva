@@ -2,6 +2,7 @@
   "title": "Forensics",
   "icon": "Microscope",
   "pages": [
-    "index"
+    "index",
+    "missing-flag"
   ]
 }

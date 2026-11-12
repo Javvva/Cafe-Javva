@@ -3,6 +3,7 @@
   "icon": "Radar",
   "pages": [
     "index",
-    "dmz"
+    "dmz",
+    "pivots"
   ]
 }
