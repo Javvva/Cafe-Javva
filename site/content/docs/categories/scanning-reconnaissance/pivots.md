@@ -50,7 +50,7 @@ The value worked as the SSH password for `level3` at `10.11.229.100`. Inside tha
 
 ### 1.2 Completion evidence
 
-![NCL Pivots (Hard) completion screenshot: Success; Q1, Q2, and Q3 marked complete](evidence/screenshots/pivots_hard_completed_100of100.png)
+Completion screenshot kept with the original notes: Q1, Q2, and Q3 marked complete (`evidence/screenshots/pivots_hard_completed_100of100.png`).
 
 *Figure 1.* The competition interface states **“Success! You have completed all the questions for this challenge.”** Three green checkmarks appear beside Q1–Q3. The screenshot also shows `OPEN: 10.11.229.132:843` in the terminal. The exact Q3 flag text is supplied in the accompanying completed write-up, not visible in this screenshot.
 
