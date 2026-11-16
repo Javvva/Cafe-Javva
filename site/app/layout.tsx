@@ -2,8 +2,10 @@ import { RootProvider } from 'fumadocs-ui/provider/next';
 import './global.css';
 import { Inter } from 'next/font/google';
 import type { Metadata } from 'next';
+import { siteUrl } from '@/lib/shared';
 
 export const metadata: Metadata = {
+  metadataBase: siteUrl,
   title: {
     default: 'Cafe Javva',
     template: '%s | Cafe Javva',

@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import { getToolIndex } from '@/lib/challenges';
+import { toolAnchor } from '@/lib/shared';
 
 export function ToolIndex() {
   const tools = getToolIndex();
@@ -11,7 +12,7 @@ export function ToolIndex() {
   return (
     <div>
       {tools.map(({ tool, challenges }) => (
-        <section key={tool} id={`tool-${tool.replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')}`}>
+        <section key={tool} id={toolAnchor(tool)}>
           <h2>{tool}</h2>
           <ul>
             {challenges.map((challenge) => (

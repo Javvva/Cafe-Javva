@@ -19,9 +19,14 @@ export interface ChallengeEntry {
   status?: Status;
 }
 
+let cache: ChallengeEntry[] | undefined;
+
 // A page counts as a challenge writeup when it declares a `category` in its
 // frontmatter. Category landing pages and guides leave it unset.
+// Content is fixed at build time, so the list is computed once and reused by
+// the finder, the tools index, and every category page.
 export function getChallenges(): ChallengeEntry[] {
+  if (cache) return cache;
   const entries: ChallengeEntry[] = [];
 
   for (const page of source.getPages()) {
@@ -59,6 +64,7 @@ export function getChallenges(): ChallengeEntry[] {
     return a.title.localeCompare(b.title);
   });
 
+  cache = entries;
   return entries;
 }
 

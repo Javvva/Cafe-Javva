@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { toolAnchor } from '@/lib/shared';
 import { categoryBySlug, statusLabel, type Difficulty, type Status } from '@/lib/taxonomy';
 
 export function ChallengeBadges({
@@ -34,14 +35,10 @@ export function ChallengeBadges({
       {season ? <span>{season}</span> : null}
       {points ? <span>{points}</span> : null}
       {tools?.map((tool) => (
-        <Link key={tool} href={`/docs/tools#tool-${slugify(tool)}`} className="underline">
+        <Link key={tool} href={`/docs/tools#${toolAnchor(tool)}`} className="underline">
           {tool}
         </Link>
       ))}
     </p>
   );
-}
-
-function slugify(value: string) {
-  return value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }

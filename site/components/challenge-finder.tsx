@@ -1,10 +1,10 @@
-import { getChallenges } from '@/lib/challenges';
+import { getChallenges, getToolIndex } from '@/lib/challenges';
 import { categories } from '@/lib/taxonomy';
 import { ChallengeFinderClient } from './challenge-finder-client';
 
 export function ChallengeFinder() {
   const challenges = getChallenges();
-  const tools = [...new Set(challenges.flatMap((challenge) => challenge.tools.map((tool) => tool.toLowerCase())))].sort();
+  const tools = getToolIndex().map(({ tool }) => tool);
 
   return (
     <ChallengeFinderClient

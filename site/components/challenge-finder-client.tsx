@@ -25,21 +25,32 @@ export function ChallengeFinderClient({
   const [status, setStatus] = useState('all');
   const [tool, setTool] = useState('all');
 
+  // Lowercased search text and tool names, built once instead of per keystroke.
+  const indexed = useMemo(
+    () =>
+      challenges.map((challenge) => ({
+        challenge,
+        tools: challenge.tools.map((item) => item.toLowerCase()),
+        haystack: [challenge.title, challenge.description, challenge.categoryTitle, ...challenge.tools]
+          .filter(Boolean)
+          .join(' ')
+          .toLowerCase(),
+      })),
+    [challenges],
+  );
+
   const results = useMemo(() => {
     const needle = query.trim().toLowerCase();
-    return challenges.filter((challenge) => {
-      if (category !== 'all' && challenge.category !== category) return false;
-      if (difficulty !== 'all' && challenge.difficulty !== difficulty) return false;
-      if (status !== 'all' && challenge.status !== status) return false;
-      if (tool !== 'all' && !challenge.tools.some((item) => item.toLowerCase() === tool)) return false;
-      if (!needle) return true;
-      const haystack = [challenge.title, challenge.description, challenge.categoryTitle, ...challenge.tools]
-        .filter(Boolean)
-        .join(' ')
-        .toLowerCase();
-      return haystack.includes(needle);
-    });
-  }, [challenges, query, category, difficulty, status, tool]);
+    return indexed
+      .filter(({ challenge, tools: challengeTools, haystack }) => {
+        if (category !== 'all' && challenge.category !== category) return false;
+        if (difficulty !== 'all' && challenge.difficulty !== difficulty) return false;
+        if (status !== 'all' && challenge.status !== status) return false;
+        if (tool !== 'all' && !challengeTools.includes(tool)) return false;
+        return !needle || haystack.includes(needle);
+      })
+      .map(({ challenge }) => challenge);
+  }, [indexed, query, category, difficulty, status, tool]);
 
   return (
     <div className="not-prose">
